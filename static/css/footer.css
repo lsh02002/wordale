@@ -1,27 +1,28 @@
-main {
+.keyboard {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   gap: 5px;
-  border-bottom: 1px solid gray;
 }
 
-.board-row {
+.keyboard-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   gap: 5px;
 }
 
-.board-block {
+.keypad-row {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border: 3px solid #d3d6da;
   width: 60px;
   height: 60px;
+
+  border-radius: 5px;
+  background-color: gray;
 }
